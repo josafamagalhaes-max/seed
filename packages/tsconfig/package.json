@@ -1,0 +1,11 @@
+{
+  "name": "@seed/tsconfig",
+  "version": "0.0.1",
+  "private": true,
+  "license": "ISC",
+  "exports": {
+    "./base.json": "./base.json",
+    "./nestjs.json": "./nestjs.json",
+    "./nextjs.json": "./nextjs.json"
+  }
+}
