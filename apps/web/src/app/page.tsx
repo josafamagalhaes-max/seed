@@ -34,6 +34,13 @@ export default async function HomePage() {
       )}
 
       <RefreshButton />
+
+      <a
+        href="/clients"
+        className="text-sm text-indigo-500 hover:underline"
+      >
+        Gerenciar clientes →
+      </a>
     </main>
   );
 }
