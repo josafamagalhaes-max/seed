@@ -12,8 +12,6 @@ function buildSupabaseClient(config: ConfigService) {
   let customFetch: typeof globalThis.fetch | undefined;
 
   if (proxyUrl) {
-    // Use undici ProxyAgent so Supabase HTTP calls tunnel through the proxy
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const { fetch: undiciFetch, ProxyAgent } = require('undici') as typeof import('undici');
     const agent = new ProxyAgent({
       uri: proxyUrl,
