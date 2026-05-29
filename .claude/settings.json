@@ -1,0 +1,17 @@
+{
+  "model": "claude-sonnet-4-6",
+  "permissions": {
+    "allow": [
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(git *)",
+      "Bash(pnpm *)"
+    ],
+    "deny": []
+  },
+  "env": {
+    "HTTPS_PROXY": "http://vader.novaeranet.com.br:3128",
+    "HTTP_PROXY": "http://vader.novaeranet.com.br:3128",
+    "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+  }
+}

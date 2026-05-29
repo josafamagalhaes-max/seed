@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# MCP config (contains API keys/tokens)
+.mcp.json
+
+# local Claude settings (may contain tokens)
+.claude/settings.local.json
+
+# build output
+dist/
+build/
+.next/
+out/
+
+# pnpm
+.pnpm-store/
+
+# OS
+.DS_Store
+Thumbs.db
